@@ -1,0 +1,6 @@
+{
+  "github.gitAuthentication": true,
+  "github.branchProtection": true,
+  "git-commit-wizard.showEmojis": true,
+  "explorer.excludeGitIgnore": true
+}
