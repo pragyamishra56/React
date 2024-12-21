@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Now from "./now.js"
+// import Now from "./now.js"
 
 function App() {
   return (
@@ -21,11 +21,9 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <>
+    
     <h1>Hello React || Pragya Mishra <p>
       I just started to learn react for my frontend tech stacks</p> </h1>
-      <Now/>
-    </>
   );
 }
 
