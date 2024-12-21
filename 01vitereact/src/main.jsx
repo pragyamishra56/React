@@ -3,7 +3,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // eslint-disable-next-line no-unused-vars
-import App from './App.jsx'
 
 // eslint-disable-next-line react-refresh/only-export-components, no-unused-vars
 function MyApp() {
