@@ -27,7 +27,7 @@ function customRender(reactElement, container) {
 
 const reactElement = {
   type: 'a',
-  props: {
+  props: { // You can add any properties you want inside the props.
     href: 'https://google.com',
     target: '_blank'
   },
@@ -36,4 +36,5 @@ const reactElement = {
 
 const mainContainer = document.querySelector('#root');
 
-customRender(reactElement, mainContainer)
+customRender(reactElement, mainContainer) // method used to render the react element
+// kya inject kru, khaa pr inject kru
