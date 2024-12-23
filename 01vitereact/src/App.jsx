@@ -8,8 +8,17 @@ import Learn from "./learn";
 
 function App() {
   // const [count, setCount] = useState(0)
-
-  return <Learn />;
+  const username = "React Developer"
+  return (
+    <>
+      <Learn/>
+      <h1>Learning React With Vite library {username}</h1> 
+      {/* {username }  can write on here it means to evaluate
+       the final outcome or evaluted value/expression of the variable username
+      */}
+      <p>Test para</p>
+    </>
+  );
 }
 
 /** ***React Fragment: ****
