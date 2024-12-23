@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react' // hooks 
 // eslint-disable-next-line no-unused-vars
 import reactLogo from './assets/react.svg'
 // eslint-disable-next-line no-unused-vars
@@ -6,10 +6,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  // Use of React is to updating of UI
   // useState() ye hook apke state ko change krne k liye responsible hai.
   // change state doesn't mean that it will change the value this changes 
   // propagate into your UI means inside the DOM
   // const [count, setCount] = useState(0)
+  // Babel  is a JavaScript compiler. It converts ES6 code into ES5 code which can be run in older browsers.
 
   // let counter = 0
 
@@ -21,6 +23,7 @@ function App() {
     // console.log("clicked", counter);
     // counter = counter + 1;
     if (counter < 20)
+      // counter += 1;
     setCounter(counter + 1)
   }
 
