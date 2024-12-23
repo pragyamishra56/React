@@ -44,6 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // <ReactElement/> isn't right way bcz it's object not a function
     // ReactElement should be write like this bcz it's an object
     // objects are used directly
-    anotherElement // it is convert into object
+    // anotherElement // it is convert into object
+    ReactElement
 
 )
