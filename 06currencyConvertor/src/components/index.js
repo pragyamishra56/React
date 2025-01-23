@@ -1,4 +1,4 @@
-import InputBox from "./InoutBox";
+import InputBox from "./InputBox";
 
 
 export {InputBox}
